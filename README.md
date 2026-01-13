@@ -1,6 +1,6 @@
 # Mini GitHub Activity Analyzer 🚀
 
-A sleek, professional, and responsive dashboard to analyze GitHub user activity using the official GitHub REST API. Built with high-performance Vanilla JavaScript and modern CSS.
+A sleek, professional, and responsive dashboard to analyze GitHub user activity using the official GitHub REST API. Built with high-performance JavaScript and modern CSS.
 
 ## ✨ Features
 
@@ -42,4 +42,5 @@ Searching for [@13krsnaa](https://github.com/13krsnaa):
 ```
 
 ---
-Built by [Antigravity](https://github.com/google-deepmind) for @13krsnaa.
+
+Built by @13krsnaa.
