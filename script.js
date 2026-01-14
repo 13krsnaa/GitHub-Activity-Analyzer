@@ -68,8 +68,19 @@ function processRepoData(repos) {
     }
   });
 
+  // Sort languages by count
+  const sortedLanguages = Object.entries(languages)
+    .sort(([, a], [, b]) => b - a)
+    .slice(0, 5);
 
-// --- UI Rendering ---
+  // Sort repos by star count
+  const topRepos = [...repos]
+    .sort((a, b) => b.stargazers_count - a.stargazers_count)
+    .slice(0, 5);
+
+  return { totalStars, sortedLanguages, topRepos };
+}
+
 function showLoader() {
   loader.classList.remove("hidden");
   errorState.classList.add("hidden");
