@@ -21,21 +21,21 @@
         </header>
 
         <main id="appContent">
-            <!-- Loader -->
+             
             <div id="loader" class="loader-container hidden">
                 <div class="loader"></div>
                 <p>Fetching data from GitHub...</p>
             </div>
 
-            <!-- Error State -->
+            
             <div id="errorState" class="error-container hidden">
-                <div class="error-icon">⚠️</div>
+                <div class="error-icon"> ERROR !!!!</div>
                 <p id="errorMessage">User not found. Please try again.</p>
             </div>
 
-            <!-- Analytics Dashboard -->
+            
             <div id="dashboard" class="dashboard hidden">
-                <!-- User Profile Section -->
+            
                 <section class="profile-card">
                     <div class="profile-header">
                         <img id="userAvatar" src="" alt="Avatar">
@@ -48,7 +48,6 @@
                     <p id="userBio" class="bio">User biography goes here...</p>
                 </section>
 
-                <!-- Stats Grid -->
                 <section class="stats-grid">
                     <div class="stat-card">
                         <span class="stat-label">Public Repos</span>
@@ -65,27 +64,27 @@
                 </section>
 
                 <div class="details-grid">
-                    <!-- Language Distribution -->
+                  
                     <section class="card language-section">
                         <h3>Top Languages</h3>
                         <div id="languageList" class="language-list">
-                            <!-- Languages will be injected here -->
+                           
                         </div>
                     </section>
 
-                    <!-- Top Repositories -->
+                
                     <section class="card repo-section">
                         <h3>Top 5 Repositories</h3>
                         <div id="repoList" class="repo-list">
-                            <!-- Repos will be injected here -->
+                           
                         </div>
                     </section>
                 </div>
             </div>
 
-            <!-- Empty State -->
+            
             <div id="emptyState" class="empty-state">
-                <div class="empty-icon">🔍</div>
+                <div class="empty-icon">EMPTY STATE !!!!</div>
                 <p>Search for a user to see their activity analytics</p>
             </div>
         </main>
