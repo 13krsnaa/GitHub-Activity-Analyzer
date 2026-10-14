@@ -31,7 +31,7 @@ Searching for [@13krsnaa](https://github.com/13krsnaa):
 ## 🚀 How to Run
 
 1. Clone or download the project.
-2. Install dependencies: `npm install`
+2. Install dependencies: `npm i`
 3. Start development server: `npm start`
 4. Open http://localhost:3000 in your browser.
 5. Enter a GitHub username and click **Analyze**.
